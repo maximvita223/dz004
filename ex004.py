@@ -14,4 +14,4 @@ for i in range(len(s)):
     elif k==1:
         polynom.write(f'{s[i]}*x')  
 polynom.write(' = 0')
-
+polynom.close()
